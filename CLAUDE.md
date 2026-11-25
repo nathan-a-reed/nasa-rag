@@ -7,7 +7,7 @@ Question answering over NASA documentation with Amazon Bedrock. The first versio
 | | |
 |---|---|
 | Jira project | Product work: space to be created. Repository setup: `FND` (https://nathan-a-reed.atlassian.net/browse/FND) |
-| Confluence space | `SD` (Engineering): https://nathan-a-reed.atlassian.net/wiki/spaces/SD |
+| Confluence space | `ENG` (Engineering): https://nathan-a-reed.atlassian.net/wiki/spaces/ENG |
 | Default branch | `main` |
 | Related repos | `aws-foundation` (accounts, deployment roles, DNS), `engineering-standards` (source of `docs/standards/`) |
 
@@ -76,6 +76,18 @@ None yet. Variables will be documented in `.env.example`. Never commit `.env`.
 - Required CI checks: `PR hygiene`; build and test checks are added with the scaffold
 - Merge strategy: squash merge
 - Extra checklist items: screenshots for UI changes; notable `cdk diff` output
+
+## Confluence page map
+
+When asked for a Confluence update, these are the pages to change:
+
+| Change | Page |
+|---|---|
+| New or changed feature | NASA RAG product brief: https://nathan-a-reed.atlassian.net/wiki/spaces/ENG/pages/1703938 |
+| Document corpus | NASA RAG document corpus: https://nathan-a-reed.atlassian.net/wiki/spaces/ENG/pages/1343527 |
+| Architecture | NASA RAG architecture overview: https://nathan-a-reed.atlassian.net/wiki/spaces/ENG/pages/1343543 |
+| Evaluation | NASA RAG evaluation results: https://nathan-a-reed.atlassian.net/wiki/spaces/ENG/pages/1802255 |
+| Release | Release notes: https://nathan-a-reed.atlassian.net/wiki/spaces/ENG/pages/1376290 |
 
 ## Restrictions and known issues
 
